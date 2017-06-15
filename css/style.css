@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+    background-color: #f1f1f1;
+	font-family: 'Open Sans',serif;
+	margin: 0;
+}
+h1 {
+	font-size: 50px;
+    color: #fff;
+	font-family: 'Lato', sans-serif;
+	filter: drop-shadow(5px 5px 2px black);
+}
+h2 {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+	filter: drop-shadow(5px 5px 2px black);
+}
+img {
+    float: right;
+    margin: 0px 0px 15px 20px;
+}
+#header_hardware {
+    background-image: url("http://www.cp-africa.com/wp-content/uploads/2015/08/hardware.jpg");
+	background-size: 1920px 1080px;
+	background-repeat: no-repeat;
+    height: auto;
+    padding: 100px 100px
+}
+#text_body{
+    background-color: #e8e8e8;
+	color: white;
+    height: auto;
+    padding: 50px;
+}
+#header_post {
+	background-image: url("../img/library.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+    height: auto;
+    padding: 100px 100px
+}
+#header_home {
+    background-image: url("../img/code.jpeg");
+	background-repeat: no-repeat;
+	background-size: 1920px 1080px;
+    height: auto;
+    padding: 100px 100px
+}
+#header_OS {
+    background-image: url("../img/os.jpeg");
+	background-position: center;
+	background-size: 1920px 1080px;
+	background-repeat: no-repeat;
+    height: auto;
+    padding: 100px 100px
+}
+#header_net {
+    background-image: url("http://www.fabuloussavers.com/new_wallpaper/Network_Datacenter_Wallpapers_freecomputerdesktopwallpaper_1920.jpg");
+	background-position: center;
+	background-size: 1920px 1080px;
+	background-repeat: no-repeat;
+    height: auto;
+    padding: 100px 100px
+}
+#header_sdlc {
+    background-image: url("../img/cpu.jpeg");
+	background-position: center;
+	background-size: 1920px 1080px;
+	background-repeat: no-repeat;
+    height: auto;
+    padding: 100px 100px
+}
+#header_ethics {
+    background-image: url("https://static.pexels.com/photos/24027/pexels-photo-24027.jpg");
+	background-position: center;
+	background-size: 1920px 1080px;
+	background-repeat: no-repeat;
+    height: auto;
+    padding: 100px 100px
+}
+#header_environment{
+    background-image: url("../img/environment.jpeg");
+	background-size: 1920px 1080px;
+	background-position: center;
+	background-repeat: no-repeat;
+    height: auto;
+    padding: 100px 100px
+}
+p {
+	font-size: 20px;
+    color: #111;
+	text-indent: 50px;
+}
+a {
+  color: #fff;
+  text-decoration: none; /* no underline */
+}
+#links {
+	color: #ffa62b;
+	filter: drop-shadow(1px 2px 1px black);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+	font: arial;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #ff9e49;
+}
+
+r: white;
+}
+
+a#download {
+    display: block;
+    text-align: center;
+    width: 150px;
+    margin: 0px auto;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial;
+    border: 1px solid #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* CSS animations by IanLunn @ Github
+https://github.com/IanLunn/Hover
+
+Used under personal license.*/
+
+/* Back Pulse */
+@-webkit-keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(255, 169, 99, 0.75);
+  }
+}
+@keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(255, 169, 99, 0.70);
+  }
+}
+.hvr-back-pulse {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+  -webkit-animation-name: hvr-back-pulse;
+  animation-name: hvr-back-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-color: #ffae7c;
+  background-color: #ffae7c;
+  color: white;
+}
+
+/* Border Fade */
+.hvr-border-fade {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  box-shadow: inset 0 0 0 0px #e1e1e1, 0 0 1px transparent;
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+.hvr-border-fade:hover, .hvr-border-fade:focus, .hvr-border-fade:active {
+  box-shadow: inset 0 0 0 4px #ffb472, 0 0 1px transparent;
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
